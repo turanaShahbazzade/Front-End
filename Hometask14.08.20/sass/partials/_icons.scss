@@ -1,0 +1,23 @@
+.icons {
+  border: 10px solid white;
+  background-color: white;
+  position: absolute;
+  left: 10px;
+  top: 30px;
+  a {
+    i {
+      background-color: $primary-color;
+      width: 35px;
+      height: 35px;
+      color: white !important;
+      text-align: center;
+      font-size: 13px;
+      padding-top: 9px;
+      padding-left: 0;
+      border-bottom: 5px solid;
+      &:hover {
+        background-color:  $secondary-color;
+      }
+    }
+  }
+}

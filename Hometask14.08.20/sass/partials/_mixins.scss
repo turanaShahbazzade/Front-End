@@ -1,0 +1,28 @@
+@mixin buttonWork() {
+  background-color: $primary-color;
+  border-radius: 0;
+  line-height: 40px;
+  border: 2px solid $primary-color;
+  color: white !important;
+  margin-bottom: 20px;
+  &:hover {
+    background-color: $secondary-color !important;
+    border-color:  $secondary-color !important;
+    transition: $hover-transition;
+  }
+}
+
+@mixin buttonHire() {
+  color: $primary-color;
+  background-color: #ffffff;;
+  border: 2px solid $primary-color;
+  border-radius: 0;
+  margin-left: 10px;
+  padding-left: 25px;
+  padding-right: 25px;
+  &:hover {
+    color: white;
+    background-color: $primary-color !important;
+    transition: $hover-transition;
+  }
+}
